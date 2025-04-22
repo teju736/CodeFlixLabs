@@ -1,0 +1,1 @@
+[{"code":"#include <stdio.h>\r\nint fibonacciSeries(int n){\r\n    if(n==1) return 0;\r\n    if(n==2) return 1;\r\n    return fibonacciSeries(n-1)+fibonacciSeries(n-2);\r\n}\r\n","language":"c","time":"2025-04-22T11:57:21.737Z","isCorrect":false}]
