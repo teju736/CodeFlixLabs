@@ -1,0 +1,1 @@
+[{"code":"#include <stdio.h>\r\nint main(){\r\n    char s1[100];\r\n    scanf(\"%s\",s1);\r\n    char s2[100];\r\n    scanf(\"%s\",s2);\r\n    printf(\"You entered: %s and %s\",s1,s2);\r\n}","language":"c","time":"2025-04-24T12:07:59.352Z","isCorrect":true}]
