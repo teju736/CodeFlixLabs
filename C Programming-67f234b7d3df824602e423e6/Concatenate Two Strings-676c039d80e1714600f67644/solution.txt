@@ -1,0 +1,1 @@
+[{"code":"#include <stdio.h>\r\n#include <string.h>\r\nint main(){\r\n    char str1[100],str2[100];\r\n    fgets(str1,sizeof(str1),stdin);\r\n    str1[strcspn(str1,\"n\")]='\\0';\r\n    fgets(str2,sizeof(str2),stdin);\r\n    str2[strcspn(str2,\"n\")]='\\0';\r\n    strcat(str1,str2);\r\n    puts(str1);\r\n}","language":"c","time":"2025-04-24T16:02:53.655Z","isCorrect":false}]
