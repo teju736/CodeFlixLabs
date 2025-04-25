@@ -1,0 +1,1 @@
+[{"code":"#include <stdio.h>\r\nint main(){\r\n    int a;\r\n    scanf(\"%d\",&a);\r\n    if(a%2==0){\r\n        printf(\"Even\");\r\n    }else{\r\n        printf(\"Odd\");\r\n    }\r\n}","language":"c","time":"2025-04-25T09:39:08.147Z","isCorrect":true}]
