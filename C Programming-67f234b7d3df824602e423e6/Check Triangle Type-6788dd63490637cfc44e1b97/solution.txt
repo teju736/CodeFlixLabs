@@ -1,0 +1,1 @@
+[{"code":"#include <stdio.h>\r\nint main(){\r\n    int a,b,c;\r\n    scanf(\"%d %d %d\",&a,&b,&c);\r\n    if(a==b&b==c){\r\n        printf(\"Equilateral\");\r\n    }else if(a==b||b==c||a==c){\r\n        printf(\"Isosceles\");\r\n    }else{\r\n        printf(\"Scalene\");\r\n    }\r\n}","language":"c","time":"2025-04-25T09:37:06.399Z","isCorrect":true}]
