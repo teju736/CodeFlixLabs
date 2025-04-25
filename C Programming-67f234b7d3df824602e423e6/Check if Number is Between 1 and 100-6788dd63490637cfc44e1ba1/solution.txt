@@ -1,0 +1,1 @@
+[{"code":"#include <stdio.h>\r\nint main(){\r\n    int a;\r\n    scanf(\"%d \",&a);\r\n    if(1<=a&&a<=100){\r\n        printf(\"In Range\");\r\n    }else{\r\n        printf(\"Out of Range\");\r\n    }\r\n}","language":"c","time":"2025-04-25T09:42:36.182Z","isCorrect":true}]
